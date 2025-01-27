@@ -117,6 +117,7 @@ namespace TheDailyRoutine.Core.Services
                     Description = uh.Habit.Description,
                     Frequency = uh.Frequency,
                     CreatedAt = uh.CreatedAt,
+                    IsPublic = uh.IsPublic,
                     CurrentStreak = CalculateCurrentStreak(uh.Completions),
                     BestStreak = CalculateBestStreak(uh.Completions),
                     CompletionRate = CalculateCompletionRate(uh.Completions),
